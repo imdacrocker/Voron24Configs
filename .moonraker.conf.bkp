@@ -115,3 +115,11 @@ origin = https://github.com/jwellman80/klipper-toolchanger-easy.git
 managed_services = klipper
 primary_branch = main
 
+[update_manager axiscope]
+type = git_repo
+path = /home/voronpi/axiscope
+origin = https://github.com/nic335/Axiscope.git
+primary_branch = main
+is_system_service = True
+managed_services = axiscope
+
